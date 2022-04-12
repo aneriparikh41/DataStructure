@@ -6,4 +6,10 @@ printNumber(n: 7)
 printReverseNumber(n: 7)
 
 // Factorial
-factorial(n: 5)
+factorial(n: 1)
+
+// Tree
+makeTree()
+
+// Height
+heightOfBST(root: makeTree())
