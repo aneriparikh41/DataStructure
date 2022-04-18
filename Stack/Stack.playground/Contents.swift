@@ -1,9 +1,9 @@
 // Calling point for all the problems
 
-var obj1 = BracesBalancing(arr: ["{","}","[","(",")","]"])
+var obj1 = BracesBalancing(arr: "{}[()]")
 print("Is the Tree Balanced: \(obj1.isBalanced())")
 
-var obj2 = BracesBalancing(arr: ["[","}","[","(",")","]"])
+var obj2 = BracesBalancing(arr: "[]({{}})[{]")
 print("Is the Tree Balanced: \(obj2.isBalanced())")
 
 nearestGreaterToLeft(inputArray: [1,3,2,4])

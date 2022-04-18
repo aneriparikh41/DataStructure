@@ -13,3 +13,17 @@ makeTree()
 
 // Height
 heightOfBST(root: makeTree())
+
+// Sort
+var arr = [1,8,5,6,0,7,2,9]
+sort(&arr)
+
+var s = Stack<Int>()
+s.push(1)
+s.push(2)
+s.push(3)
+s.push(4)
+s.push(5)
+deleteInStack(s: &s, size: 5)
+
+myPow(2, -10)

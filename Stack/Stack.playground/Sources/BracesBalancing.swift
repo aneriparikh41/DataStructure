@@ -3,33 +3,29 @@ import Foundation
 public class BracesBalancing {
     var openingBraces = ["{","[","("]
     var closingBraces = ["}","]",")"]
-    var s = Stack<String>()
-    var inputArray = [String]()
+    var s = Stack<Character>()
+    var inputArray: String
 
-    public init(arr: [String]) {
+    public init(arr: String) {
         self.inputArray = arr
     }
 
     public func isBalanced() -> Bool {
-        for i in inputArray {
-            if openingBraces.contains(i) {
-                s.push(i)
-                //print("Pushing:\(i)")
+        for char in inputArray {
+            if openingBraces.contains("\(char)") {
+                s.push(char)
             }
-            else if closingBraces.contains(i) {
+            else if closingBraces.contains("\(char)") {
                 if let top = s.top(),
-                   let index = openingBraces.firstIndex(of: top),
-                   i == closingBraces[index] {
+                   let index = openingBraces.firstIndex(of: "\(top)"),
+                   "\(char)" == closingBraces[index] {
                     s.pop()
-                    //print("Poping:\(i)")
                 } else {
-                    //print("Couldn't pop element matching for:\(i)")
                     return false
                 }
             }
         }
         if s.isEmpty() {
-            //print("Stack empty")
             return true
         }
         return false
