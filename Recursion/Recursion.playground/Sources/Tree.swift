@@ -23,7 +23,7 @@ public class Tree {
 
 */
 public func makeTree() -> Tree {
-    let tree = Tree(node: 1)
+    var tree = Tree(node: 1)
     tree.left = Tree(node: 2)
     tree.right = Tree(node: 3)
     tree.left?.left = Tree(node: 4)
