@@ -10,7 +10,7 @@ public func swap(_ root: Tree?) {
         return
     }
 
-    swapRoot(&root?.left, &root?.right)
+    //swapRoot(&root?.left, &root?.right)
     
     swap(root?.left)
     swap(root?.right)
