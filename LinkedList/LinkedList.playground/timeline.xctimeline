@@ -3,7 +3,12 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/a0p08qj/Documents/Practice%20/DataStructure/LinkedList/LinkedList.playground#CharacterRangeLen=32&amp;CharacterRangeLoc=180&amp;EndingColumnNumber=13&amp;EndingLineNumber=8&amp;StartingColumnNumber=10&amp;StartingLineNumber=7&amp;Timestamp=671537687.6646971"
+         documentLocation = "file:///Users/a0p08qj/Documents/Practice%20/DataStructure/LinkedList/LinkedList.playground#CharacterRangeLen=30&amp;CharacterRangeLoc=206&amp;EndingColumnNumber=11&amp;EndingLineNumber=11&amp;StartingColumnNumber=10&amp;StartingLineNumber=10&amp;Timestamp=672488787.510849"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/a0p08qj/Documents/Practice%20/DataStructure/LinkedList/LinkedList.playground#CharacterRangeLen=20&amp;CharacterRangeLoc=882&amp;EndingColumnNumber=0&amp;EndingLineNumber=42&amp;StartingColumnNumber=1&amp;StartingLineNumber=41&amp;Timestamp=672488787.511961"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
