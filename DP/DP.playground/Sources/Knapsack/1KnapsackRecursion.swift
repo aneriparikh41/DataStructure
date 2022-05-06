@@ -11,6 +11,8 @@ public func knapsackRecursion(wgt: [Int], val: [Int], W: Int, n: Int) -> Int {
     return knapsack(wgt: wgt, val: val, W: W, n: n)
 }
 
+// This is recursion + memoization because we have to use stored value as here this not pure recursion we have 2 decisions whether to take or not/.
+
 public func knapsack(wgt: [Int], val: [Int], W: Int, n: Int) -> Int {
     if ( W == 0 || n == 0) {
         return 0
