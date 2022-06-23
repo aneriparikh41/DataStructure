@@ -38,3 +38,5 @@ public func LCSTable(_ str1: String, _ str2: String) -> Int {
 
     return t[n][m]!
 }
+
+let str = readLine()
